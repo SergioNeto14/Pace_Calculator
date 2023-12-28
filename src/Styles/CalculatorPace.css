@@ -1,0 +1,265 @@
+@media (min-width: 1000px) {
+  
+  .Data {
+    width: 450px;
+    height: 93%;
+    margin: auto;
+    margin-top: 4%;
+    justify-items: right;
+    border: 1px solid black;
+    border-radius: 5%;
+  }
+
+  .Data h1 {
+    color: black;
+    margin: 10px 10px 5px 5px;
+  }
+  
+  .Data h2 {
+    color: black;
+    margin: 10px;
+    margin-top: 2%;
+  }
+  
+  .Data h3 {
+    font-weight: 500;
+    margin: 8px;
+    color: black;
+  }
+
+  .Data .distance {
+    background-color: white;
+    border: 0.5px solid black;
+    border-radius: 5%;
+    height: 30px;
+    width: 20%;
+    text-align: center;
+    font-weight: 900;
+    font-size: large;
+    cursor: pointer;
+    
+  }
+  
+  .Data .hours {
+    background-color: white;
+    border: 0.5px solid black;
+    border-radius: 5%;
+    height: 30px;
+    width: 20%;
+    text-align: center;
+    font-weight: 900;
+    font-size: large;
+    cursor: pointer;
+    
+  }
+  
+  .Data .minutes {
+    background-color: white;
+    border: 0.5px solid black;
+    border-radius: 5%;
+    height: 30px;
+    width: 20%;
+    text-align: center;
+    font-weight: 900;
+    font-size: large;
+    cursor: pointer;
+    
+  }
+
+  .Data .seconds {
+    background-color: white;
+    border: 0.5px solid black;
+    border-radius: 5%;
+    height: 30px;
+    width: 20%;
+    text-align: center;
+    font-weight: 900;
+    font-size: large;
+    cursor: pointer;
+    margin-bottom: 25px;
+    
+  }
+  
+  .Button {
+    height: 55px;
+    width: 125px;
+    justify-content: center;
+    background-color: rgb(175, 132, 39);
+    color: white;
+    font-size: 30px;
+    border: 1px solid;
+    border-radius: 15%;
+    font-family: Roboto;
+    cursor: pointer;
+    margin-top: 5px;
+  } 
+
+  .Button::hover {
+    background-color: black;
+  }
+
+}
+
+@media (max-width: 999px) {
+
+.Data {
+  text-align: center;
+  width: 100%;
+  margin-top: 1%;
+  justify-items: right;
+  border-bottom: 1px solid black;
+}
+
+.Data h1 {
+  color: black
+}
+
+.Data h2 {
+  color: black;
+  margin: 10px;
+  margin-top: 0%;
+  
+}
+
+.Data h3 {
+  font-weight: 500;
+  margin: 8px;
+  color: black;
+}
+
+
+.Data .distance {
+  border: 0.5px solid black;
+  border-radius: 10px;
+  height: 25px;
+  width: 20%;
+  text-align: center;
+  font-weight: 900;
+  font-size: large;
+      
+}
+
+.Data .hours {
+  border: 0.5px solid black;
+  border-radius: 10px;
+  height: 25px;
+  width: 20%;
+  text-align: center;
+  font-weight: 900;
+  font-size: large;
+  
+}
+
+.Data .minutes {
+  border: 0.5px solid black;
+  border-radius: 10px;
+  height: 25px;
+  width: 20%;
+  text-align: center;
+  font-weight: 900;
+  font-size: large;
+  
+}
+
+.Data .seconds {
+  border: 0.5px solid black;
+  border-radius: 10px;
+  height: 25px;
+  width: 20%;
+  text-align: center;
+  font-weight: 900;
+  font-size: large;
+  
+}
+
+.Button {
+  height: 50px;
+  justify-content: center;
+  background-color: rgb(175, 132, 39);
+  color: white;
+  font-size: 30px;
+  border: 1px solid;
+  border-radius: 10%;
+  margin-bottom: 5%;
+  }
+
+}
+
+@media (max-width: 600px) {
+  
+  .Data {
+    width: 100%;
+    height: 100%;
+    
+    margin-top: 2%;
+    justify-items: center;
+    border-bottom: 1px solid black; 
+  }
+  
+  .Data h1 {
+    color: black;
+    font-weight: 100;
+  }
+  
+  .Data h2 {
+    color: black;
+    margin: 10px;
+    margin-top: 6%;
+    font-weight: 100;
+    
+  }
+  
+  .Data h3 {
+    font-weight: 500;
+    margin: black;
+    font-weight: 100;
+  }
+  
+  
+  .Data .distance {
+    border: 0.5px solid black;
+    border-radius: 5%;
+    height: 25px;
+    width: 30%;
+    
+  }
+  
+  .Data .hours {
+    border: 0.5px solid black;
+    border-radius: 5%;
+    height: 25px;
+    width: 30%;
+    
+  }
+  
+  .Data .minutes {
+    border: 0.5px solid black;
+    border-radius: 5%;
+    height: 25px;
+    width: 30%;
+    
+  }
+
+  .Data .seconds {
+    border: 0.5px solid black;
+    border-radius: 5%;
+    height: 25px;
+    width: 30%;
+    
+  }
+  
+  .Button {
+    height: 50px;
+    justify-content: center;
+    background-color: white;
+    color: rgb(175, 132, 39);
+    font-size: 30px;
+    border: 1px solid;
+    border-radius: 10%;
+    margin-bottom: 5%;
+  }  
+  
+  .Button::hover {
+    background-color: black;
+  }
+}
